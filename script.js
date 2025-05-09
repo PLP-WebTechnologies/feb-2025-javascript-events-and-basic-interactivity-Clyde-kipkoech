@@ -25,7 +25,7 @@ document.getElementById("changeButton").addEventListener("click", function() {
     this.textContent = "Clicked!";
 });
 
-let images = ["image1.jpg", "image2.jpg", "image3.jpg"];
+let images = ["https://i.pinimg.com/736x/d1/4e/15/d14e15ef45e34499a4a081ea338e9254.jpg", "https://i.pinimg.com/736x/c6/ea/40/c6ea406c333809ad8fe95ea88e68406c.jpg", "https://i.pinimg.com/736x/d0/74/6c/d0746c822c78a48c5e434313e60d1577.jpg"];
 let index = 0;
 document.getElementById("nextButton").addEventListener("click", function() {
     index = (index + 1) % images.length;
