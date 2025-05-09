@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Fun Bundle</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Interactive Fun Bundle</h1>
+
+        <!-- Event Handling -->
+        <section>
+            <h2>Event Handling</h2>
+            <button id="myButton">Click Me</button>
+            <p id="hoverText">Hover over me!</p>
+        </section>
+
+        <!-- Interactive Elements -->
+        <section>
+            <h2>Interactive Elements</h2>
+            <button id="changeButton">Click to Change</button>
+            <div class="image-gallery">
+                <img id="imageGallery" src="image1.jpg" alt="Gallery Image" />
+                <button id="nextButton">Next Image</button>
+            </div>
+            <div class="tabs">
+                <button class="tab" data-target="tab1">Tab 1</button>
+                <button class="tab" data-target="tab2">Tab 2</button>
+                <div id="tab1" class="tab-content">Tab 1 Content</div>
+                <div id="tab2" class="tab-content" style="display: none;">Tab 2 Content</div>
+            </div>
+        </section>
+
+        <!-- Form Validation -->
+        <section>
+            <h2>Form Validation</h2>
+            <form id="myForm">
+                <input type="text" id="myInput" placeholder="Enter something..." required>
+                <input type="email" id="emailInput" placeholder="Enter your email" required>
+                <input type="password" id="passwordInput" placeholder="Enter password (min 8 chars)" required>
+                <button type="button" id="submitBtn">Submit</button>
+                <div id="passwordFeedback"></div>
+            </form>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
